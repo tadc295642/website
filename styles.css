@@ -1,0 +1,181 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+}
+
+header .logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+    background-color: #222;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ffcc00;
+    padding: 15px 30px;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #ff9900;
+}
+
+/* Characters Section */
+#characters {
+    padding: 50px 20px;
+}
+
+#characters h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.character {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.character img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* NFT Market Section */
+#nft-market {
+    padding: 50px;
+}
+
+button {
+    background-color: #00ffcc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff00ff;
+    color: white;
+}
+
+/* Roadmap Section */
+#roadmap {
+    padding: 50px;
+    background-color: #333;
+}
+
+.roadmap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stage {
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.stage h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stage ul {
+    list-style: none;
+}
+
+.stage ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 20px;
+}
+
+footer .social-links {
+    margin-bottom: 10px;
+}
+
+footer .social-icon {
+    font-size: 30px;
+    margin: 0 15px;
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+footer .social-icon:hover {
+    color: #ff00ff;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .roadmap {
+        flex-direction: column;
+    }
+
+    .stag
